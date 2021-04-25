@@ -1,0 +1,166 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --blue: #0808ad;
+    --light-blue: #405dea;
+    --white: #ffffff;
+    --orange: #ef6c00;
+}
+
+.custom-shape-divider-bottom-1619288969 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1619288969 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 177px;
+}
+
+.custom-shape-divider-bottom-1619288969 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.gradient {
+    background: rgb(11,2,148);
+    background: linear-gradient(90deg, rgba(11,2,148,1) 0%, rgba(8,8,173,1) 52%, rgba(27,66,230,1) 100%);
+}
+
+.contenedor-ondas {
+    position:relative; 
+    height: 480px;
+    color: #fff;
+    padding-top: 50px;
+}
+
+.contenedor-ondas h2 {
+    font-family: 'Caveat', cursive;
+    font-size: 54px;
+    text-shadow: 2px 2px 2px #261A05;
+}
+
+.contenedor-ondas span{
+    font-family: 'Caveat', cursive;
+    font-size: 35px;
+    text-shadow: -1px 1px 0px rgba(0,0,0,0.6);
+}
+
+.box-shadow {
+    box-shadow: rgb(0 0 0 / 25%) 0px 3px 11px 0px;
+}
+
+.boton {
+    border: 0;
+    border-radius: 50px;
+    padding: 10px 17px;
+    letter-spacing: 1.1px;
+    font-weight: 600px;
+    transition: all 0.2s ease;
+}
+
+.boton:hover {
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.boton-naranja {
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+.boton-azul {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.boton-azul:hover {
+    background-color: var(--light-blue);
+    color: var(--white);
+}
+
+.boton-blanco {
+    background: #fff;
+}
+
+.texto-naranja {
+    color: var(--orange);
+}
+
+.texto-azul {
+    color: var(--blue);
+}
+
+.marcas {
+    margin-top: 40px;
+}
+
+.marcas h4 {
+    font-family: 'Caveat', cursive;
+    font-size: 45px;
+}
+
+.nosotros {
+    margin-top: 50px;
+    padding: 40px 30px;
+    color: #fff;
+}
+
+.nosotros h3 {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.productos {
+    margin-top: 60px;
+}
+
+.productos .producto {
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: var(--blue);
+    color: #ededef;
+    padding-bottom: 70px;
+}
+
+footer a {
+    color: #ededef;
+}
+
+footer a:hover {
+    color: #ededef;
+    text-decoration: underline;
+}
+
+footer .enlace-red {
+    border-radius: 50%;
+    background: white;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-left: 10px;
+    padding-top: 2px;
+}
+
+footer .enlace-red:hover {
+    background-color: #c1c1c1;
+}
+
+footer .enlace-red a {
+    color: var(--blue);
+}
+
+footer .creador {
+    font-size: 14px;
+}
