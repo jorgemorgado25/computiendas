@@ -2,6 +2,7 @@ html {
     padding: 0;
     margin: 0;
 }
+
 :root {
     --blue: #0808ad;
     --light-blue: #405dea;
@@ -37,9 +38,9 @@ html {
 
 .contenedor-ondas {
     position:relative; 
-    height: 480px;
+    min-height: 480px;
     color: #fff;
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 .contenedor-ondas h2 {
@@ -56,7 +57,7 @@ html {
 
 @media screen and (max-width: 700px) {
     .contenedor-ondas {
-        min-height: 350px;
+        min-height: 280px;
     }
     .contenedor-ondas h2 {
         font-size: 30px;
@@ -64,16 +65,11 @@ html {
     .contenedor-ondas span {
         font-size: 25px;
     }
-}
-
-@media screen and (max-width: 450px) {
-    .contenedor-ondas {
-        max-height: 100px;
-    }
     .ondas-top {
         display: none;
     }
 }
+
 
 @media screen and (max-width: 600px) {
     .contenedor-valores {
