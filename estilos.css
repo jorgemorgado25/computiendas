@@ -48,10 +48,31 @@ html {
     text-shadow: 2px 2px 2px #261A05;
 }
 
-.contenedor-ondas span{
+.contenedor-ondas span {
     font-family: 'Caveat', cursive;
     font-size: 35px;
     text-shadow: -1px 1px 0px rgba(0,0,0,0.6);
+}
+
+@media screen and (max-width: 700px) {
+    .contenedor-ondas {
+        min-height: 350px;
+    }
+    .contenedor-ondas h2 {
+        font-size: 30px;
+    }
+    .contenedor-ondas span {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .contenedor-ondas {
+        max-height: 100px;
+    }
+    .ondas-top {
+        display: none;
+    }
 }
 
 .box-shadow {
